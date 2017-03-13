@@ -1,12 +1,11 @@
-package br.com.eteg.ssb;
+package br.com.eteg.ssb
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
-
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+class Application {
+	static void main(String[] args) {
+		SpringApplication.run Application.class, args
 	}
 }
